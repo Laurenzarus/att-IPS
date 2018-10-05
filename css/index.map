@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/index.css",
+	"sources": [
+		"../sass/index.scss"
+	],
+	"sourcesContent": [
+		"$att : dodgerblue;\n$smart : #67C62C;\n* {\n\t-webkit-box-sizing: border-box;\n\t-moz-box-sizing: border-box;\n\tbox-sizing: border-box;\n}\n.col-4 {\n\toverflow: hidden;\n}\n.container-fluid {\n\tbackground-color: darkgray;\n\tpadding-bottom: 20px;\n}\n.header {\n\tpadding-top: 20px;\n\tfont-family: 'Roboto', sans-serif;\n\tfont-weight: bold;\n\tfont-size: 24px;\n}\n#signIn {\n\tfont-size: 20px;\n\tspan {\n\t\t&:hover {\n\t\t\tcolor: darkgray;\n\t\t\tcursor: pointer;\n\t\t}\n\t}\n}\n#mapRow {\n\tpadding-top: 20px;\n}\n#map {\n\tborder: 1px solid black;\n\theight: 50vw;\n\tpadding: 0;\n\timg {\n\t\twidth: 100%;\n\t\theight: 100%;\n\t}\n}\n.mapouter {\n\tpadding: 0;\n\tmargin: 0;\n}\niframe {\n\twidth: 100%;\n\theight: 100%;\n}\n.navbar {\n\tbackground-color: $att;\n\ta {\n\t\tcolor: lightgray;\n\t\t&:hover {\n\t\t\tcolor: black;\n\t\t}\n\t}\n}\n.header, #navigation {\n\tbackground-color: black;\n}\n#top {\n\tbackground-color: black;\n\tcolor: white;\n\t\n}"
+	],
+	"mappings": ";AAEA,AAAA,CAAC,CAAC;EACD,kBAAkB,EAAE,UAAW;EAC/B,eAAe,EAAE,UAAW;EAC5B,UAAU,EAAE,UAAW;CACvB;;;AACD,AAAA,MAAM,CAAC;EACN,QAAQ,EAAE,MAAO;CACjB;;;AACD,AAAA,gBAAgB,CAAC;EAChB,gBAAgB,EAAE,QAAS;EAC3B,cAAc,EAAE,IAAK;CACrB;;;AACD,AAAA,OAAO,CAAC;EACP,WAAW,EAAE,IAAK;EAClB,WAAW,EAAE,oBAAqB;EAClC,WAAW,EAAE,IAAK;EAClB,SAAS,EAAE,IAAK;CAChB;;;AACD,AAAA,OAAO,CAAC;EACP,SAAS,EAAE,IAAK;CAOhB;;;AARD,AAEC,OAFM,CAEN,IAAI,AACF,MAAM,CAAC;EACP,KAAK,EAAE,QAAS;EAChB,MAAM,EAAE,OAAQ;CAChB;;;AAGH,AAAA,OAAO,CAAC;EACP,WAAW,EAAE,IAAK;CAClB;;;AACD,AAAA,IAAI,CAAC;EACJ,MAAM,EAAE,eAAgB;EACxB,MAAM,EAAE,IAAK;EACb,OAAO,EAAE,CAAE;CAKX;;;AARD,AAIC,IAJG,CAIH,GAAG,CAAC;EACH,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,IAAK;CACb;;;AAEF,AAAA,SAAS,CAAC;EACT,OAAO,EAAE,CAAE;EACX,MAAM,EAAE,CAAE;CACV;;;AACD,AAAA,MAAM,CAAC;EACN,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,IAAK;CACb;;;AACD,AAAA,OAAO,CAAC;EACP,gBAAgB,EAlDV,UAAU;CAyDhB;;;AARD,AAEC,OAFM,CAEN,CAAC,CAAC;EACD,KAAK,EAAE,SAAU;CAIjB;;;AAPF,AAEC,OAFM,CAEN,CAAC,AAEC,MAAM,CAAC;EACP,KAAK,EAAE,KAAM;CACb;;;AAGH,AAAA,OAAO,EAAE,AAAA,WAAW,CAAC;EACpB,gBAAgB,EAAE,KAAM;CACxB;;;AACD,AAAA,IAAI,CAAC;EACJ,gBAAgB,EAAE,KAAM;EACxB,KAAK,EAAE,KAAM;CAEb",
+	"names": []
+}

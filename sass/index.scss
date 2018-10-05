@@ -1,0 +1,66 @@
+$att : dodgerblue;
+$smart : #67C62C;
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.col-4 {
+	overflow: hidden;
+}
+.container-fluid {
+	background-color: darkgray;
+	padding-bottom: 20px;
+}
+.header {
+	padding-top: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+}
+#signIn {
+	font-size: 20px;
+	span {
+		&:hover {
+			color: darkgray;
+			cursor: pointer;
+		}
+	}
+}
+#mapRow {
+	padding-top: 20px;
+}
+#map {
+	border: 1px solid black;
+	height: 50vw;
+	padding: 0;
+	img {
+		width: 100%;
+		height: 100%;
+	}
+}
+.mapouter {
+	padding: 0;
+	margin: 0;
+}
+iframe {
+	width: 100%;
+	height: 100%;
+}
+.navbar {
+	background-color: $att;
+	a {
+		color: lightgray;
+		&:hover {
+			color: black;
+		}
+	}
+}
+.header, #navigation {
+	background-color: black;
+}
+#top {
+	background-color: black;
+	color: white;
+	
+}

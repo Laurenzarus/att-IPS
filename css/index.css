@@ -1,0 +1,94 @@
+/* line 3, /Users/LaurenceFong/Desktop/Fall2018/AT&T/sass/index.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 8, /Users/LaurenceFong/Desktop/Fall2018/AT&T/sass/index.scss */
+.col-4 {
+  overflow: hidden;
+}
+
+/* line 11, /Users/LaurenceFong/Desktop/Fall2018/AT&T/sass/index.scss */
+.container-fluid {
+  background-color: darkgray;
+  padding-bottom: 20px;
+}
+
+/* line 15, /Users/LaurenceFong/Desktop/Fall2018/AT&T/sass/index.scss */
+.header {
+  padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* line 21, /Users/LaurenceFong/Desktop/Fall2018/AT&T/sass/index.scss */
+#signIn {
+  font-size: 20px;
+}
+
+/* line 24, /Users/LaurenceFong/Desktop/Fall2018/AT&T/sass/index.scss */
+#signIn span:hover {
+  color: darkgray;
+  cursor: pointer;
+}
+
+/* line 30, /Users/LaurenceFong/Desktop/Fall2018/AT&T/sass/index.scss */
+#mapRow {
+  padding-top: 20px;
+}
+
+/* line 33, /Users/LaurenceFong/Desktop/Fall2018/AT&T/sass/index.scss */
+#map {
+  border: 1px solid black;
+  height: 50vw;
+  padding: 0;
+}
+
+/* line 37, /Users/LaurenceFong/Desktop/Fall2018/AT&T/sass/index.scss */
+#map img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 42, /Users/LaurenceFong/Desktop/Fall2018/AT&T/sass/index.scss */
+.mapouter {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 46, /Users/LaurenceFong/Desktop/Fall2018/AT&T/sass/index.scss */
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 50, /Users/LaurenceFong/Desktop/Fall2018/AT&T/sass/index.scss */
+.navbar {
+  background-color: dodgerblue;
+}
+
+/* line 52, /Users/LaurenceFong/Desktop/Fall2018/AT&T/sass/index.scss */
+.navbar a {
+  color: lightgray;
+}
+
+/* line 54, /Users/LaurenceFong/Desktop/Fall2018/AT&T/sass/index.scss */
+.navbar a:hover {
+  color: black;
+}
+
+/* line 59, /Users/LaurenceFong/Desktop/Fall2018/AT&T/sass/index.scss */
+.header, #navigation {
+  background-color: black;
+}
+
+/* line 62, /Users/LaurenceFong/Desktop/Fall2018/AT&T/sass/index.scss */
+#top {
+  background-color: black;
+  color: white;
+}
+
+/*# sourceMappingURL=../css/index.map */
